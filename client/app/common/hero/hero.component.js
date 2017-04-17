@@ -4,7 +4,9 @@ import './hero.scss';
 
 let heroComponent = {
   restrict: 'E',
-  bindings: {},
+  bindings: {
+    heroTitle: '<'
+  },
   template,
   controller
 };
